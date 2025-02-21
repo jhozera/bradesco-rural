@@ -70,7 +70,7 @@ body {
     color: rgb(255, 255, 255);
     border: none;
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 #button-mobilefechar{
@@ -428,9 +428,6 @@ body {
   }
  
 
-  
-
-
 @media (min-width: 1025px) {
 
     .banner-mobile{
@@ -539,5 +536,7 @@ body {
         display: none;
        }
 
-   
+    .title-agencia-bl{
+        text-align: center;
+    }
 }

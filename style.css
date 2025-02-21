@@ -169,9 +169,14 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .trc-dt:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.trc-dt:last-child:hover {
+    transform-origin: bottom;
 }
 
 .trc-dt img {
